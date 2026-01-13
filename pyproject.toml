@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sketchlinalg"
+version = "0.1.0"
+description = "Randomized sketching methods for fast linear models (least squares, ridge, preconditioned LSQR)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name="YOUR NAME"}]
+dependencies = [
+  "numpy",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+]
+
+[tool.setuptools]
+packages = ["sketchlinalg", "sketchlinalg.sketches", "sketchlinalg.solvers", "sketchlinalg.utils", "sketchlinalg.benchmarks"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
