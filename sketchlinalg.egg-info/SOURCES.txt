@@ -8,5 +8,6 @@ sketchlinalg.egg-info/dependency_links.txt
 sketchlinalg.egg-info/requires.txt
 sketchlinalg.egg-info/top_level.txt
 sketchlinalg/sketches/__init__.py
+sketchlinalg/sketches/gaussian.py
 sketchlinalg/solvers/__init__.py
 sketchlinalg/utils/__init__.py
